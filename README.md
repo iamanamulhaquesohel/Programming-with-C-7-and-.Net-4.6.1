@@ -8,6 +8,19 @@ a. All decision and iteration statements(If-Else, Switch, While, for, foreach, d
 b. Declaring, naming & assigning variable, using primitive data types, arithmetic operators, difference of prefix & postfix, scope.
 c. Handle exception using try-catch-finally.
 
+#C Sharp Mid 02 Exam
+
+1. Create C# Console application to print the behavior of an animal on a console screen.
+Application must be object oriented. Apply both the generic and type specific generic(generic with constraint) approach-
+
+a. Enum and its Implementation.
+b. Principal of OOP.
+c. Generic Interface & It's Implementation.
+d. Generic and type specific generic approach.
+
+2. Create a console application on product. The application must have three classes; Product, ProductCategory and ProdcutModel. Write a Language-Integrated Query to find out the product that has the same category and model as in the ProductCategory and ProdcutModel classes. (Data will be found in the file named-Prodcut.txt).
+
+3. Create a multi-task asynchronous operation.
 
 #C Sharp Final Exam
 
