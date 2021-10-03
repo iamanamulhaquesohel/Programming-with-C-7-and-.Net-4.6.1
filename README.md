@@ -2,6 +2,7 @@
 
 
 #C Sharp Mid Exam
+
 Create C# Console application that will implement the followings:
 a. All decision and iteration statements(If-Else, Switch, While, for, foreach, do).
 b. Declaring, naming & assigning variable, using primitive data types, arithmetic operators, difference of prefix & postfix, scope.
@@ -9,6 +10,7 @@ c. Handle exception using try-catch-finally.
 
 
 #C Sharp Final Exam
+
 1. Create C# console application to take and print the followings:
 a. Car information: Model No., Year Make, Number of Seat Number of Gear, Number of Door, Engine Capacity in CC, Interior Design, Vehicle Type. 
 b. Motorcycle information: Model No., Year Make, Number of Gear, Starting Method, Engine Capacity in CC, Maximum Power in BPH, Maximum Torque in NM, Mileage in KMPL, Cooling, Front Brake, Rear Brake, Exterior Design, Vehicle Type. 
