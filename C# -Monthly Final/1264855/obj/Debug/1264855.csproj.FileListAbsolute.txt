@@ -1,0 +1,7 @@
+D:\Document Data\IDB\IDB Exam\1264855\1264855\bin\Debug\1264855.exe.config
+D:\Document Data\IDB\IDB Exam\1264855\1264855\bin\Debug\1264855.exe
+D:\Document Data\IDB\IDB Exam\1264855\1264855\bin\Debug\1264855.pdb
+D:\Document Data\IDB\IDB Exam\1264855\1264855\obj\Debug\1264855.csprojAssemblyReference.cache
+D:\Document Data\IDB\IDB Exam\1264855\1264855\obj\Debug\1264855.csproj.CoreCompileInputs.cache
+D:\Document Data\IDB\IDB Exam\1264855\1264855\obj\Debug\1264855.exe
+D:\Document Data\IDB\IDB Exam\1264855\1264855\obj\Debug\1264855.pdb
