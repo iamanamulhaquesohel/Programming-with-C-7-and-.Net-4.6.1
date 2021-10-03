@@ -1,7 +1,0 @@
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\bin\Debug\Evidence_1264855.exe.config
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\bin\Debug\Evidence_1264855.exe
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\bin\Debug\Evidence_1264855.pdb
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\obj\Debug\Evidence_1264855.csprojAssemblyReference.cache
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\obj\Debug\Evidence_1264855.csproj.CoreCompileInputs.cache
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\obj\Debug\Evidence_1264855.exe
-C:\Users\Administrator$\Desktop\1264855\Evidence_1264855\Evidence_1264855\obj\Debug\Evidence_1264855.pdb
