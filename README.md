@@ -17,6 +17,7 @@ b. Motorcycle information: Model No., Year Make, Number of Gear, Starting Method
 c. Apply object approach of OOP. 
 
 #The application will follow the following instructions strictly: 
+
 a. Principle of OOP must be followed/used to develop the application. 
 b. TwoWheeler and FourWheeler must inherit Vehicle. Car must inherit Four Wheeler and Motorcycle must inherit Two Wheeler. Vehicle cannot be instantiated. Car and Motorcycle cannot be inherited. 
 c. Interior and Exterior Design must be implemented. TwoWheeler will implement Exterior Design. FourWheeler will implement Interior Design. Interior and Exterior Designs are unlimited.
