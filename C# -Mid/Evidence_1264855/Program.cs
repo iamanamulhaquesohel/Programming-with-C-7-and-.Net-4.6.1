@@ -13,12 +13,15 @@ namespace Evidence_1264855
         {
             //ANSWER TO THE QUESTION NO 6-A//
             //ALL DECISION AND ITERATION STATEMENT//
+            Console.WriteLine($"Question: 6-A => ALL DECISION AND ITERATION STATEMENT(IF-ELSE, SWITCH, WHILE, FOR, FOREACH, DO).");
+            Console.WriteLine("=================================================================================================");
             Console.WriteLine($"----ANSWER TO THE QUESTION NO 6-A----");
+            Console.WriteLine();
             If_Statement();
             Console.WriteLine();
             If_Else_Statement();
             Console.WriteLine();
-            If_else_If_Statement();
+            If_Else_If_Statement();
             Console.WriteLine();
             Switch_Case_Statement();
             Console.WriteLine();
@@ -30,42 +33,45 @@ namespace Evidence_1264855
             Console.WriteLine();
             //END OF THE ALL DECISION AND ITERATION STATEMENT//
 
-
             //ANSWER TO THE QUESTION NO 6-B//
             //DECLARING, NAMING & ASSIGNING VARIABLE, USING PRIMITIVE DATA TYPE//
             //ARITHMETIC OPERATOR, DIFFERENCE OF PREFIX AND POSTFIX, SCOPE//
+            Console.WriteLine($"Question: 6-B => DECLARING, NAMING & ASSIGNING VARIABLE, USING PRIMITIVE DATA TYPES, ARITHMETIC OPERATORS, DIFFERENCE OF PREFIX & POSTFIX, SCOPE.");
+            Console.WriteLine("========================================================================================================================");
             Console.WriteLine($"----ANSWER TO THE QUESTION NO 6-B----");
             Console.WriteLine();
-            AssignmentOperator();
+            Assignment_Operators();
             Console.WriteLine();
-            UsingVariables();
+            Using_Variables();
             Console.WriteLine();
-            PrePostFix();
+            Operator_Precedence();
             Console.WriteLine();
-            OperatorPrecedence();
+            Pre_Post_Fix();
             Console.WriteLine();
-            Premitive_Data_Type();
+            Premitive_Data_Types();
             Console.WriteLine();
             //END OF  THE QUESTION NO 6-B//
 
-
             //ANSWER TO THE QUESTION NO 6-C//
             //HANDLE EXCEPTION USING TRY CATCH FINALLY//
+            Console.WriteLine($"Question: 6-C => HANDLE EXCEPTION USING TRY CATCH FINALLY.");
+            Console.WriteLine("============================================================");
             Console.WriteLine($"----ANSWER TO THE QUESTION NO 6-C----");
             Console.WriteLine();
-            //STARTING TRY CATCH//
+
+            //STARTING TRY CATCH
             try
             {
-                Console.WriteLine("Enter First value:");
-                int FirstNumber = int.Parse(Console.ReadLine());
-                Console.WriteLine("Enter Second value:");
-                int SecondNumber = int.Parse(Console.ReadLine());
-                int result = FirstNumber / SecondNumber;
+                Console.WriteLine("Enter First Value:");
+                int firstNumber = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter Second Value:");
+                int secondNumber = int.Parse(Console.ReadLine());
+                int result = firstNumber / secondNumber;
                 Console.WriteLine($"Result = {result}");
             }
             catch (FormatException ex)
             {
-                Console.WriteLine("Input string was not in a correct format.");
+                Console.WriteLine("Input string was not in correct format. ");
             }
             catch (InvalidOperationException ex)
             {
@@ -84,8 +90,8 @@ namespace Evidence_1264855
                 Console.WriteLine();
                 Console.WriteLine("Well Done !! Great JOb -By Anamul Haque Sohel-1264855.");
             }
-            //END OF  THE QUESTION NO 6-C//
 
+            //END OF  THE QUESTION NO 6-C//
 
 
 
@@ -96,60 +102,56 @@ namespace Evidence_1264855
             Console.WriteLine();
             Console.WriteLine("Press Enter Any Key to Exit The Programe");
             Console.ReadKey(); //For Hold CMD or User input any key to Exit the Programe
-
         }//Main
 
-
-
-        static void If_Statement()
+        //If-Statement
+        static void If_Statement() 
         {
-            Console.WriteLine($"----- IF Statement-----");
+            Console.WriteLine($"-------If Statement-------");
             int x = 20, y = 10;
             if (x >= 10)
             {
-                Console.WriteLine("x is Greater than 10");
+                Console.WriteLine("x is greater than 10");
             }
             if (y <= 5)
             {
                 Console.WriteLine("y is less than or equals to 5");
             }
         }
-
-        static void If_Else_Statement()
-
+        //If-Else Statement
+        static void If_Else_Statement() 
         {
-            Console.WriteLine($"----- IF Else Statement-----");
+            Console.WriteLine($"------- If-Else Statement-------");
             int x = 20;
             if (x >= 10)
             {
-                Console.WriteLine("x is Greater than or Equals to 10");
+                Console.WriteLine("x is Greater than or equals to 10");
             }
             else
             {
-                Console.WriteLine("x is Less than 10");
+                Console.WriteLine("x is less than 10");
             }
         }
-
-        static void If_else_If_Statement()
+        //If-Else-If Statement
+        static void If_Else_If_Statement() 
         {
-            Console.WriteLine($"----- If Else IF Statement-----");
-            int x = 5;
+            Console.WriteLine($"----- If-Else-If Statement-----");
+            int x = 10;
             if (x == 10)
             {
-                Console.WriteLine("x value equals to 10");
+                Console.WriteLine("x value is equals to 10");
             }
-            else if (x > 10)
+            else if (x > 10) 
             {
-                Console.WriteLine("x value greater than 10");
+                Console.WriteLine("x value is greater than 10");
             }
             else
             {
-                Console.WriteLine("x value less than 10");
+                Console.WriteLine("x value is less than 10");
             }
         }
-
-        static void Switch_Case_Statement()
-
+        //Switch Case Statement
+        static void Switch_Case_Statement() 
         {
             Console.WriteLine($"----- Switch Case Statement-----");
             int x = 20;
@@ -170,49 +172,53 @@ namespace Evidence_1264855
             }
         }
 
-        static void For_loop_Statement()
+        //For Loop Statement
+        static void For_loop_Statement() 
         {
-            Console.WriteLine($"----- For Loop Statement-----");
-            for (int i = 1; i <= 4; i++)
+            Console.WriteLine($"----- For-Loop Statement-----");
+            for (int i = 1; i <= 5; i++)
             {
-                Console.WriteLine("I value is: {0}", i);
+                Console.WriteLine("i value is: {0}", i);
             }
         }
 
-        static void While_loop_Statement()
+        //While Loop Statement
+        static void While_loop_Statement() 
         {
-            Console.WriteLine($"----- While Loop Statement-----");
+            Console.WriteLine($"----- While-Loop Statement-----");
             int i = 1;
-            while (i <= 4)
+            while (i <= 5)
             {
                 Console.WriteLine("i value: {0}", i);
                 i++;
             }
         }
 
-        static void Do_While_loop_Statement()
+        //Do While Loop Statement
+        static void Do_While_loop_Statement() 
         {
-            Console.WriteLine($"-----Do While Loop Statement-----");
+            Console.WriteLine($"-----Do-While-Loop Statement-----");
             int i = 1;
             do
             {
                 Console.WriteLine("i value: {0}", i);
                 i++;
-            }
-            while (i <= 4);
+            } 
+            while (i <= 5);
         }
 
-        static void AssignmentOperator()
+        //Assignment Operator
+        static void Assignment_Operators() 
         {
-            Console.WriteLine($"-----Assignment Operator-----");
+            Console.WriteLine($"-----Assignment Operators-----");
             int x = 20;
             x += 10;
-            Console.WriteLine("Add Assignment:  " + x);
+            Console.WriteLine("Add Assignment: " + x);
             x *= 4;
             Console.WriteLine("Multiply Assignment: " + x);
             x %= 7;
             Console.WriteLine("Modulo Assignment: " + x);
-            x &= 10;
+            x &= 16;
             Console.WriteLine("Bitwise And Assignment: " + x);
             x ^= 12;
             Console.WriteLine("Bitwise XOR Assignment: " + x);
@@ -220,55 +226,67 @@ namespace Evidence_1264855
             Console.WriteLine("Right Shift Assignment: " + x);
         }
 
-        static void UsingVariables()
+        //Using Variablles
+        static void Using_Variables() 
         {
             Console.WriteLine($"-----Variables Declaration-----");
-            Console.WriteLine("Global Variable");
+            Console.WriteLine("Global Variable:");
             dateExam = new DateTime(2021, 6, 24); //assignment
             Console.WriteLine($"Exam Date: {dateExam:yyyy-MM-dd}");
-            Console.WriteLine("Local Variable");
+            Console.WriteLine();
+            Console.WriteLine("Local Variable:");
             string course = "OL-WADA";
-            float pi = 3.14F;
+            float pi = 3.10F;
             decimal wage = 9000.75M;
             Console.WriteLine($"Course: {course}");
             Console.WriteLine($"PI: {pi}");
             Console.WriteLine($"Wage: {wage}");
         }
 
-        static void OperatorPrecedence()
+        //Operator Precedence
+        static void Operator_Precedence() 
         {
             Console.WriteLine($"----- Operator Precedence-----");
             int x = 20, y = 5, z = 4;
             int result = x / y + z;
-            Console.WriteLine("Result1: " + result);
+            Console.WriteLine("Result 1: " + result);
             bool result2 = z <= y + x;
-            Console.WriteLine("Result2: " + result2);
+            Console.WriteLine("Result 2: " + result2);
         }
-        static void PrePostFix()
+
+        //Pre fix & Post Fix
+        static void Pre_Post_Fix() 
         {
             Console.WriteLine($"----- PreFix  & PostFix-----");
-            Console.WriteLine("Pre Fix and Post Fix");
+            Console.WriteLine("Pre Fix:");
             int x = 10;
-            Console.WriteLine($"x={x}");
-            int m = ++x;//Prefix
-            Console.WriteLine($"m={m}");
-            Console.WriteLine($"x={x}");
-            int n = x++;
-            Console.WriteLine($"n={n}");
-            Console.WriteLine($"x={x}");
+            Console.WriteLine($"x= {x}");
+            int m = ++x; //prefix
+            Console.WriteLine($"m= {m}");
+            Console.WriteLine($"x= {x}");
+            Console.WriteLine("Post Fix:");
+            int n = x++; //postfix
+            Console.WriteLine($"n= {n}");
+            Console.WriteLine($"x= {x}");
         }
 
-        static void Premitive_Data_Type()
+        //Premitive Data Types
+        static void Premitive_Data_Types() 
         {
-            Console.WriteLine($"----- Premitive Data Type-----");
-            Console.WriteLine("Int, String, Double, Char, Bool Data Type");
+            Console.WriteLine($"----- Premitive Data Types-----");
+            Console.WriteLine("Int, String, Double, Char, Bool Data Type:");
+            Console.WriteLine();
             int number = 10;
-            string name = "Suresh Dasari";
-            double percentage = 10.23;
+            string name = "Anamul Haque Sohel";
+            double percentage = 10.24;
             char gender = 'M';
             bool isVerified = true;
+            Console.WriteLine("int = " + number);
+            Console.WriteLine("string = " + name);
+            Console.WriteLine("double = " + percentage);
+            Console.WriteLine("char = " + gender);
+            Console.WriteLine("bool = " + isVerified);
         }
-
 
 
     }//Class or Program
