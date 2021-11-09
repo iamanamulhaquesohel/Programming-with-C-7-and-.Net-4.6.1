@@ -105,7 +105,7 @@ namespace Evidence_02
                 .ForEach(g =>
                 {
                     Console.WriteLine("============================================================");
-                    Console.WriteLine("-----------------Group Product by Model:--------------------");
+                    Console.WriteLine("-----------------GROUP PRODUCT BY MODEL:--------------------");
                     Console.WriteLine("============================================================");
                     var model = Models.First(m => m.ProductModelID == g.Key).Name;
                     Console.WriteLine($"Product Model ID: {g.Key}, Product Model Name: {model}");
@@ -122,7 +122,7 @@ namespace Evidence_02
                .ForEach(g =>
                {
                    Console.WriteLine("============================================================");
-                   Console.WriteLine("-----------------Group Product by Category:-----------------");
+                   Console.WriteLine("--------------GROUP PRODUCT BY CATEGORY GROUP:---------------");
                    Console.WriteLine("============================================================");
                    var Category = Categories.First(c => c.ProductCategoryID == g.Key).Name;
                    Console.WriteLine($"Product Model ID: {g.Key}, Product Model Name: {Category}");
@@ -136,7 +136,7 @@ namespace Evidence_02
             //3 Inner join
             Console.WriteLine();
             Console.WriteLine("============================================================");
-            Console.WriteLine("------------------Product Inner Join:-----------------------");
+            Console.WriteLine("------------------PRODUCT INNER JOIN:-----------------------");
             Console.WriteLine("============================================================");
             var InnerSyntex = from p in Products
                               join m in Models on p.ProductModelID equals m.ProductModelID
@@ -159,7 +159,7 @@ namespace Evidence_02
             //4 Left outer join
             Console.WriteLine();
             Console.WriteLine("============================================================");
-            Console.WriteLine("---------------Product Left Outer Join:---------------------");
+            Console.WriteLine("---------------PRODUCT LEFT OUTER JOIN:---------------------");
             Console.WriteLine("============================================================");
             var LeftOJoinSyntex = from c in Categories
                                   join p in Products on c.ProductCategoryID equals p.ProductCategoryID into cp

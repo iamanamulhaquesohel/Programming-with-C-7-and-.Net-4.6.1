@@ -17,6 +17,7 @@ namespace Evidence_01
             SpecificBehavior<Animal> SB = new SpecificBehavior<Animal>();
             Console.WriteLine(SB.GetSpecificBehavior<Animal>(A1));
             Console.WriteLine();
+
             Animal A2 = new Animal("Dog", 4, AnimalType.Carvivore, Gender.Female);
             GenericBehavior<Animal> GB2 = new GenericBehavior<Animal>();
             Console.WriteLine(GB2.GetGenericBehavior<Animal>(A2));
@@ -30,5 +31,7 @@ namespace Evidence_01
             Console.WriteLine("Press any key to Exit the Program");
             Console.ReadKey();
         }//Main
+
     }//Class
+    
 }//Namespace

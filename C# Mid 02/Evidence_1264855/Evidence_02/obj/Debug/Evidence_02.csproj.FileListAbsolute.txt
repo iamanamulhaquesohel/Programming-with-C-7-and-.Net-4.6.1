@@ -4,3 +4,10 @@ D:\Document Data\IDB\IDB Exam\Module 04\Mid C#\Evidence_1264855\Evidence_02\bin\
 D:\Document Data\IDB\IDB Exam\Module 04\Mid C#\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.csproj.CoreCompileInputs.cache
 D:\Document Data\IDB\IDB Exam\Module 04\Mid C#\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.exe
 D:\Document Data\IDB\IDB Exam\Module 04\Mid C#\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.pdb
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\bin\Debug\Evidence_02.exe.config
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\bin\Debug\Evidence_02.exe
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\bin\Debug\Evidence_02.pdb
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.csproj.AssemblyReference.cache
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.csproj.CoreCompileInputs.cache
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.exe
+D:\Document Data\Github\Programming-with-C-Sharp-7-and-.Net-4.6.1\C# Mid 02\Evidence_1264855\Evidence_02\obj\Debug\Evidence_02.pdb

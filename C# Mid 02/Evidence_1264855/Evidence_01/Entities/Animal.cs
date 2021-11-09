@@ -16,7 +16,6 @@ namespace Evidence_01.Entities
             this.Type = type;
             this.Sex = sex;
         }
-
         public string Name { get; set; }
         public int Age { get; set; }
         public AnimalType Type { get; set; }

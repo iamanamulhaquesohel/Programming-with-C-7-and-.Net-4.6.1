@@ -11,9 +11,7 @@ namespace Evidence_01.Entities
         Harvivore = 1,
         Carvivore,
         Omnivore
-
     }
-
     public enum Gender
     {
         Male = 1,
