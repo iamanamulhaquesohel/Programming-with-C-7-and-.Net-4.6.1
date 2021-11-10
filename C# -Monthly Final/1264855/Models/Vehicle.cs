@@ -19,7 +19,6 @@ namespace _1264855.Models
             this.CC = cc;
             this.Type = type;
         }
-
         public string Model { get; set; }
         public int Make { get; set; }
         public int Seat { get; set; }
@@ -28,6 +27,7 @@ namespace _1264855.Models
         public int CC { get; set; }
         public VehicleType Type { get; set; }
         protected int Wheels { get; set; }
+
         public override string ToString()
         {
             return $"ModeL: {this.Model}\nMake: {this.Make}\nCC: {CC}\nType: {this.Type}\n" +

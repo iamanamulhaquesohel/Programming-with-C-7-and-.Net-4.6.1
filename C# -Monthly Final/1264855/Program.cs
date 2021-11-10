@@ -11,7 +11,7 @@ namespace _1264855
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Car input");
+            Console.WriteLine("Car Input:");
             Car c = new Car();
             Console.Write("Model No: ");
             c.Model = Console.ReadLine();
@@ -22,7 +22,7 @@ namespace _1264855
             Console.Write("Number of Gear: ");
             c.Gear = int.Parse(Console.ReadLine());
             Console.Write("Number of Door: ");
-            c.Gear = int.Parse(Console.ReadLine());
+            c.Door = int.Parse(Console.ReadLine());
             Console.Write("Engine Capacity in CC: ");
             c.CC = int.Parse(Console.ReadLine());
             Console.Write("Feature: ");
@@ -30,7 +30,7 @@ namespace _1264855
             c.AddFeature(input.Split(','));
 
             Console.WriteLine();
-            Console.WriteLine("Motor Cycle input");
+            Console.WriteLine("Motor Cycle input:");
             Console.WriteLine();
             MotorCycle b = new MotorCycle();
             Console.Write("Model: NO: ");
